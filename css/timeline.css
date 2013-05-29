@@ -293,19 +293,6 @@
     border:none !important;
 }
 
-.date{
-    text-transform: uppercase;
-    font-family: "brandon-grotesque" !important;
-    font-size: 14px;
-}
-
-.flag-content h3,
-.title,
-.container p,
-.container h3{
-    font-family: "ff-tisa-web-pro" !important;
-}
-
 .flag-content h3{
     color:#ec5637!important;
 }
