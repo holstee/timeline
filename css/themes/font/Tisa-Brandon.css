@@ -5,7 +5,7 @@
 .vco-storyjs .vco-feature h4.date,
 .vco-storyjs .vco-feature h5.date,
 .vco-storyjs .vco-feature h6.date{
-    font-family:"brandon-grotesque";
+    font-family:"brandon-grotesque" !important;
     text-transform:uppercase;
 }
 
