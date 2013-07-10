@@ -303,3 +303,7 @@
 }
 
 body{margin:0;}
+
+.flag .flag-content h3{
+    font-weight: normal !important;
+}
