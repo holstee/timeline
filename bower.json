@@ -1,0 +1,19 @@
+{
+  "name": "timeline",
+  "version": "0.0.0",
+  "homepage": "https://github.com/holstee/timeline",
+  "authors": [
+    "reggi <thomas@reggi.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "TimelineJS": "~2.34.0"
+  }
+}

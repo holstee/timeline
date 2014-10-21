@@ -1,25 +1,22 @@
-<html> 
+<html>
     <head>
-        <script type="text/javascript" src="./lib/jquery-min.js"></script>
+        <!--
         <script type="text/javascript" src="//use.typekit.net/nth8hqp.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        -->
+        <link rel="stylesheet" href="./custom.css">
     </head>
     <body>
         <div id="timeline-embed"></div>
-        
         <script type="text/javascript">
             var timeline_config = {
                 width:              '100%',
                 height:             '650',
                 source:             'https://docs.google.com/spreadsheet/pub?key=0ApKwXCSMUBgTdGRrMHh0MTVtTU9WdUhWcWNuZmlVUUE&output=html',
-                embed_id:           'timeline-embed',               //OPTIONAL USE A DIFFERENT DIV ID FOR EMBED
-                font:               'Tisa-Brandon',             //OPTIONAL FONT
-                maptype:            'watercolor',                   //OPTIONAL MAP STYLE
-                css:                './css/timeline.css',     //OPTIONAL PATH TO CSS
-                js:                 './js/timeline-min.js'    //OPTIONAL PATH TO JS
+                embed_id:           'timeline-embed',
+                maptype:            'watercolor',
             }
         </script>
-        <script type="text/javascript" src="./js/storyjs-embed.js"></script>
-        
+        <script type="text/javascript" src="./bower_components/TimelineJS/build/js/storyjs-embed.js"></script>
     </body>
 </html>
